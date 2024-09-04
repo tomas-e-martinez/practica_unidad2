@@ -5,6 +5,7 @@
 <html>
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="styles.css" rel="stylesheet" />
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -15,6 +16,11 @@
             <header>
                 <h1>Tomás Martínez</h1>
                 <p>Estudiante de Programación en UTN y Desarrollador .NET</p>
+                <ul class="navBar">
+                    <li><a href="WebForm1.aspx">Inicio</a></li>
+                    <li><a href="Proyectos.aspx">Proyectos</a></li>
+                    <li><a href="Contacto.aspx">Contacto</a></li>
+                </ul>
             </header>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
